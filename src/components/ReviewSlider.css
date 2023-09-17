@@ -1,0 +1,17 @@
+/* ReviewSlider.css */
+
+/* Set a fixed width and height for the card slides */
+.mySwiper .swiper-slide {
+    width: 300px;
+    height: 300px;
+  }
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    /* Adjust the card dimensions for smaller screens if needed */
+    .mySwiper .swiper-slide {
+      width: 100%; /* Full width for smaller screens */
+      height: 300px; /* Maintain a fixed height */
+    }
+  }
+  
